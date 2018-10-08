@@ -1,7 +1,7 @@
-Install anyenv via ansible on CentOS
+Install anyenv via ansible on CentOS or Ubuntu
 ===
 
-An ansible role to install anyenv on CentOS
+An ansible role to install anyenv on CentOS or Ubuntu
 
 ## Requirements
 
@@ -15,8 +15,8 @@ $ exec $SHELL -l
 
 ### Install several envs (rbenv, pyenv, phpenv etc..)
 
-In default, the roles install only rbenv.
-Change the variable whose name is "anyenv.install_envs" in defaults/main.yml if you want to do other envs.
+In default, the roles install only pyenv.
+Change the variable whose name is "anyenv_install_envs" in defaults/main.yml if you want to do other envs.
 
 ### Change anyenv directory
 
